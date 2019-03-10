@@ -26,7 +26,7 @@
                     <img class="img-fluid" src="{{ $sneaker->cover }}" alt="">
                 </div>
                 <div class="col">
-                    <h5 class="card-title">User: <a href="{{ route('mysneakers.index', $sneaker->user->slug) }}" title="{{ $sneaker->user->name }}'s book list">{{ $sneaker->user->name }}</a></h5>
+                    <h5 class="card-title">User: <a href="{{ route('mysneakers.index', $sneaker->user->slug) }}" title="{{ $sneaker->user->name }}'s sneaker list">{{ $sneaker->user->name }}</a></h5>
                     <h6 class="card-subtitle mb-2 text-muted">Brand: {{ $sneaker->brand->name }}</h6>
                     <p class="card-text">{{ str_limit($sneaker->description, 300) }}</p>
 

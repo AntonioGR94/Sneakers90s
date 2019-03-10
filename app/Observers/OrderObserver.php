@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Mail;
 class OrderObserver
 {
     /**
-     * Handle the book "created" event.
+     * Handle the order "created" event.
      *
      * @param  \App\Order  $order
      * @return void
